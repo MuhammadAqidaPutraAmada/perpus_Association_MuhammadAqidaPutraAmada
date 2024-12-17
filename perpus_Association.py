@@ -13,7 +13,7 @@ class LibraryMember:
         if book.ada:
             book.ada = False
             self.pinjam.append(book)
-            print(f"{self.name} berhasil meminjam buku: {book.title}")
+            print(f"{self.name} berhasil meminjamm buku: {book.title}")
         else:
             print(f"Maaf, buku {book.title} sedang dipinjam.")
 
